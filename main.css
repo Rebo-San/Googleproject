@@ -1,0 +1,45 @@
+body {
+	background-color: #fff;
+	color: 222;
+}
+
+ul#nav {
+	float: right;
+	margin-right: 25px;
+}
+
+ul#nav li {
+	list-style: none;
+	display: inline-block;
+	text-align: right;
+	padding: 1em 10px 0 0 ;
+	margin: 5px 5px 0 0;
+	font-size: 13px;
+	vertical-align: bottom;
+}
+
+span#share {
+	background-color: #f2f2f2;
+	padding:7px 15px;
+	cursor: default;
+}
+img.profile_img {
+	border-radius: 25px;
+	height: 32px;
+	width: 32px;
+	margin: -5px;
+	vertical-align: middle;
+}
+
+@media screen and (max-width: 480px){
+	ul#nav li {
+		padding: .0em 0px 0 0 ;
+		margin: 2px 2px 0 0;
+		font-size: 25px;
+	}
+	
+	ul#nav {
+		float: right;
+	margin-right: 10px;
+	}
+}
